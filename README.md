@@ -6,18 +6,20 @@ DHCP server test tool by MFC
 It could be used to test the performance of DHCP server.
 
 
-## Gossip
-I completed it very long ago as one fresh developer, so it is very simple, but useful. It was born in 2007 year and ther was no similar open-source tool as far as I know. It seems there are some tools now.
+## Gossip  
+Actually I am one Linux programmer :) 
+I completed this very long ago as one fresh developer, so it is very simple, but a little useful. It was born in 2007 year and ther was no similar open-source tool as far as I know. It seems there are some tools now.  
 Anyway, I also share it with everybody today.   
 It was saved in Google codes before. I export it to github today because of the coming end of google codes.
 
 ## Background
 I took charge of developing the DHCP server when I got my first job. One task is that enhance the performance of DHCP server.
-So I develop this tool to get the performance result of DHCP server and other features with my private time at home. Then its copyright belongs to myself, not My company.
+I develop this tool in my private time to get the performance result of DHCP server and test other features easily. 
+So its copyright belongs to myself, not the company.
 
 ## Usage
 
-I expains some configures which seems not clear
+I expains some configures which seems not clear now.
 ### General Setting
 Local IP: It's the local IP of the computer which runs the tool. It should be gotten by tool normally, please correct it if not right.  
 Server IP: The IP of DHCP server  
