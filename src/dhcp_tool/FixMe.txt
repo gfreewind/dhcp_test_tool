@@ -1,0 +1,17 @@
+//ToDo
+1. Make the tool works as all kinds of interaction in RFC 2131;
+2. /*  Refer to RFC 2131
+   If the 'giaddr' field in a DHCP message from a client is non-zero,
+   the server sends any return messages to the 'DHCP server' port on the
+   BOOTP relay agent whose address appears in 'giaddr'. If the 'giaddr'
+   field is zero and the 'ciaddr' field is nonzero, then the server
+   unicasts DHCPOFFER and DHCPACK messages to the address in 'ciaddr'.
+   If 'giaddr' is zero and 'ciaddr' is zero, and the broadcast bit is
+   set, then the server broadcasts DHCPOFFER and DHCPACK messages to
+   0xffffffff. If the broadcast bit is not set and 'giaddr' is zero and
+   'ciaddr' is zero, then the server unicasts DHCPOFFER and DHCPACK
+   messages to the client's hardware address and 'yiaddr' address.  In
+   all cases, when 'giaddr' is zero, the server broadcasts any DHCPNAK
+   messages to 0xffffffff.
+   */
+   So we could use "ciaddr" instead of 'giaddr'
