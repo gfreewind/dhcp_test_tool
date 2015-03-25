@@ -36,6 +36,7 @@ Repeat MAC: Sorry, I forget the accurate meaning. You could get it by reading co
 
 
 ## Sources Directory   
+bin: There is one execute binary of this tool. You could run it directly.  
 Because I wanted to share some codes with different projects, so I created the inc and utils directories as the most outside directory.  
 The dhcp_tool saves the project file and source codes of DHCP performance tool.
 
