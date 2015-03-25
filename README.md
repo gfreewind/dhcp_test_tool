@@ -35,7 +35,7 @@ Fixed cnt: The tool will allocate the IPs by specific count
 Repeat MAC: Sorry, I forget the accurate meaning. You could get it by reading codes:D  
 
 
-
-
-
+## Sources Directory   
+Because I wanted to share some codes with different projects, so I created the inc and utils directories as the most outside directory.  
+The dhcp_tool saves the project file and source codes of DHCP performance tool.
 
